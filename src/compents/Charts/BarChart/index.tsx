@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-import './index.scss';
-import { BarChartPropsType } from './PropsType';
-import classNames from 'classnames';
+import React, { useState } from "react";
+import "./index.scss";
+import { BarChartPropsType } from "./PropsType";
+import classNames from "classnames";
 
-const prefixCls = 'h-button';
+const prefixCls = "h-button";
 
-const Button: React.FC<BarChartPropsType> = props => {
-  const {
-    type,
-    children,
-  } = props;
+const Button: React.FC<BarChartPropsType> = (props) => {
+  const { type, children } = props;
   const [cls, setCls] = useState({
     [prefixCls]: true,
     [`${prefixCls}-active`]: false,
@@ -29,6 +26,5 @@ const Button: React.FC<BarChartPropsType> = props => {
     </div>
   );
 };
-
 
 export default Button;

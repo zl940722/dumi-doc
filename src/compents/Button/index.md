@@ -5,8 +5,8 @@
 通过 type 属性切换 Button 组件样式
 
 ```tsx
-import React from 'react';
-import { Button } from 'supreview-doc';
+import React from "react";
+import { Button } from "supreview-doc";
 
 export default () => {
   return (
@@ -26,8 +26,8 @@ export default () => {
 通过 disabled 属性设置按钮是否禁用
 
 ```tsx
-import React from 'react';
-import { Button } from 'supreview-doc';
+import React from "react";
+import { Button } from "supreview-doc";
 
 export default () => {
   return (

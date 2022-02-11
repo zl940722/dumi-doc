@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import './index.scss';
-import { ButtonPropsType } from './PropsType';
-import classNames from 'classnames';
+import React, { useState } from "react";
+import "./index.scss";
+import { ButtonPropsType } from "./PropsType";
+import classNames from "classnames";
 
-const prefixCls = 'h-button';
+const prefixCls = "h-button";
 
-const Button: React.FC<ButtonPropsType> = props => {
+const Button: React.FC<ButtonPropsType> = (props) => {
   const {
     type,
     disabled,
@@ -40,11 +40,11 @@ const Button: React.FC<ButtonPropsType> = props => {
 };
 
 Button.defaultProps = {
-  type: 'default',
+  type: "default",
   disabled: false,
   loading: false,
-  className: '',
-  activeClassName: '',
+  className: "",
+  activeClassName: "",
 };
 
 export default Button;

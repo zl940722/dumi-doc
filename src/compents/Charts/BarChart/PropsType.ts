@@ -4,7 +4,7 @@
 
 export interface BarChartPropsType {
   /** 组件类型 */
-  type: "ColorPicker"| 'DirectionInput' | 'Collapse'| 'Panel' | 'Input';
+  type: "ColorPicker" | "DirectionInput" | "Collapse" | "Panel" | "Input";
   /** 组件FormItem样式 */
   style?: React.CSSProperties;
   /** 组件FormItem文本 */
